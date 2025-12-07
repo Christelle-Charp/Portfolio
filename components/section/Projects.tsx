@@ -19,17 +19,17 @@ export default function Projects() {
 
         <ProjectCard
           title="Locations Vacances"
-          description="Plateforme de réservation développée avec Laravel, intégration API et gestion multilingue."
+          description="Exercice de découverte de Laravel. Site pour gérer des locations de vacances et réserver en ligne."
           image="/locations-vacances.png"
-          serverLink="https://vps-charpinet.fr/locations-vacances"
+          serverLink="https://locations-vacances.christelle-charpinet.fr"
           githubLink="https://github.com/christelle-charp/locations-vacances"
         />
 
         <ProjectCard
-          title="Bolowens"
-          description="Site communautaire construit avec Symfony, incluant authentification et gestion de contenu."
-          image="/bolowens.png"
-          serverLink="https://vps-charpinet.fr/bolowens"
+          title="Bolonews"
+          description="Exercice sur un site communautaire construit avec Symfony, incluant authentification et gestion de contenu. Pas de responsive."
+          image="/bolonews.png"
+          serverLink="https://bolonews.christelle-charpinet.fr"
           githubLink="https://github.com/christelle-charp/bolowens"
         />
       </div>
