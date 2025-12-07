@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-20 flex justify-end items-center gap-6 p-6 text-white">
-        <a href="#contact" className="flex items-center hover:text-blue-400">CONTACT</a>
-        <a href="/cv" className="flex items-center hover:text-blue-400">CV</a>
+        <Link href="/#contact" className="flex items-center hover:text-blue-400">CONTACT</Link>
+        <Link href="/cv" className="flex items-center hover:text-blue-400">CV</Link>
         <a
             href="https://www.linkedin.com/in/christelle-charpinet-102860137"
             target="_blank"

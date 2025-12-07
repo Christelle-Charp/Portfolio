@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 // components/Card/CardWithCTA.tsx
 interface CardWithCTAProps {
   title: string
@@ -10,9 +12,9 @@ export default function CardWithCTA({ title, description, link }: CardWithCTAPro
     <div className="bg-white text-black p-6 rounded shadow hover:shadow-lg transition">
       <h4 className="text-xl font-bold mb-2">{title}</h4>
       <p className="mb-4">{description}</p>
-      <a href={link} className="text-blue-400 hover:underline">
+      <Link href={link} className="text-blue-400 hover:underline">
         En savoir plus →
-      </a>
+      </Link>
     </div>
   )
 }
