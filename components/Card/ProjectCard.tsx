@@ -20,13 +20,12 @@ export default function ProjectCard({
   return (
     <div className="flex flex-col md:flex-row bg-white text-black rounded-lg overflow-hidden shadow hover:shadow-lg transition mb-12">
       {/* Image à gauche */}
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 aspect-[3/2] relative">
         <Image
-            src={image}
-            alt={title}
-            width={600}
-            height={400}
-            className="w-full h-full object-cover"
+          src={image}
+          alt={title}
+          fill
+          className="object-cover object-center"
         />
       </div>
 

@@ -32,6 +32,14 @@ export default function Projects() {
           serverLink="https://frigo-vide.christelle-charpinet.fr"
           githubLink="https://github.com/Christelle-Charp/FrigoVide"
         />
+
+        <ProjectCard
+          title="API"
+          description="API Node.js en production qui expose plusieurs routes backend et pilote le déploiement automatique de mon portfolio. Elle reçoit un webhook GitHub, exécute un script shell sécurisé sur mon VPS et orchestre la reconstruction du service via Docker Compose."
+          image="/api.jpg"
+          serverLink="https://api.christelle-charpinet.fr"
+          githubLink="https://github.com/Christelle-Charp/api"
+        />
       </div>
     </section>
   )

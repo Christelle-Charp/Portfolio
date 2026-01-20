@@ -41,6 +41,22 @@ export default function Footer() {
           </a>
         </div>
 
+        <div className="text-sm text-gray-400">
+          Ce portfolio est déployé automatiquement via un webhook GitHub, une API Node.js et Docker Compose.
+        </div>
+
+        <div className="text-sm text-gray-400">
+          Code source :{" "}
+          <a
+            href="https://github.com/Christelle-Charp/Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            GitHub
+          </a>
+        </div>
+
         {/* Mentions légales */}
         <div className="text-sm text-gray-400">
           © 2025 Christelle Charpinet – Tous droits réservés
