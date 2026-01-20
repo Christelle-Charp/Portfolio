@@ -24,6 +24,14 @@ export default function Projects() {
           serverLink="https://bolonews.christelle-charpinet.fr"
           githubLink="https://github.com/christelle-charp/bolowens"
         />
+
+        <ProjectCard
+          title="Frigo Vide"
+          description="Application React qui vous aide à cuisiner avec ce que vous avez sous la main. Entrez vos ingrédients, découvrez des recettes adaptées, et gardez vos préférées à portée de clic."
+          image="/frigo-vide.png"
+          serverLink="https://frigo-vide.christelle-charpinet.fr"
+          githubLink="https://github.com/Christelle-Charp/FrigoVide"
+        />
       </div>
     </section>
   )
