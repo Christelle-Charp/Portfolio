@@ -73,6 +73,14 @@ export default function Projects() {
             githubLink="https://github.com/christelle-charp/bolowens"
           />
 
+          <ProjectCard
+            title="MyPizza"
+            description="Application PHP permettant de composer une pizza personnalisée via une architecture MVC légère et des appels API en cURL. Gestion du panier en session et mise à jour dynamique des choix. Projet pédagogique centré sur la logique backend ; le style visuel est volontairement minimal et non responsive."
+            image="/my-pizza.png"
+            serverLink="https://my-pizza.christelle-charpinet.fr"
+            githubLink="https://github.com/christelle-charp/MyPizza"
+          />
+
         </div>
 
       </div>
