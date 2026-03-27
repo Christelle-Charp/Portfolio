@@ -1,6 +1,10 @@
 # Étape 1 : Image Node officielle
 FROM node:20-alpine
 
+RUN apk add --no-cache libc6-compat
+
+#RUN apk add --no-cache wget
+
 # Étape 2 : Répertoire de travail
 WORKDIR /app
 
@@ -20,4 +24,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Étape 8 : Lancer l’app
-CMD ["npm", "start"]
+CMD ["node", "node_modules/next/dist/bin/next", "start", "-H", "0.0.0.0", "-p", "3000"]
